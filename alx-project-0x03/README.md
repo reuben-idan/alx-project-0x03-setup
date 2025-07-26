@@ -1,4 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Splash App
+
+[![Build](https://img.shields.io/github/actions/workflow/status/reuben-idan/alx-project-0x03-setup/ci.yml?style=flat-square)](https://github.com/reuben-idan/alx-project-0x03-setup/actions)
+[![Last Commit](https://img.shields.io/github/last-commit/reuben-idan/alx-project-0x03-setup?style=flat-square)](https://github.com/reuben-idan/alx-project-0x03-setup/commits/main)
+[![Open Issues](https://img.shields.io/github/issues/reuben-idan/alx-project-0x03-setup?style=flat-square)](https://github.com/reuben-idan/alx-project-0x03-setup/issues)
+[![License](https://img.shields.io/github/license/reuben-idan/alx-project-0x03-setup?style=flat-square)](LICENSE)
+
+Splash App is a modern Next.js application offering AI-powered utilities such as text generation and text-to-image conversion. The codebase is written in TypeScript, styled with Tailwind CSS, and follows clean architecture principles for scalability and easy maintenance.
+
+## Table of Contents
+1. [Features](#features)
+2. [Tech Stack](#tech-stack)
+3. [Getting Started](#getting-started)
+4. [Available Scripts](#available-scripts)
+5. [Project Structure](#project-structure)
+6. [Contributing](#contributing)
+7. [License](#license)
+
+## Features
+- Next.js 15 (pages router)
+- TypeScript with centralized interface definitions
+- Tailwind CSS utility-first styling
+- Reusable component library
+- Custom 404 error page
+- ESLint & Prettier configured for consistent code style
+- Ready for CI/CD and deployment to Vercel or any Node host
+
+## Tech Stack
+| Category | Technology |
+|----------|------------|
+| Framework | Next.js 15 |
+| Language  | TypeScript |
+| Styling   | Tailwind CSS |
+| Icons     | React Icons |
+| Testing   | Jest, React Testing Library |
+| Linting   | ESLint, Prettier |
+
+## Getting Started
+### Prerequisites
+- Node.js >= 20
+- npm >= 10 (or yarn / pnpm)
+
+### Installation
+```bash
+# clone the repository
+git clone https://github.com/reuben-idan/alx-project-0x03-setup.git
+cd alx-project-0x03-setup/alx-project-0x03
+
+# install dependencies
+npm install
+```
+
+### Development
+```bash
+# start the development server
+npm run dev
+# visit http://localhost:3000
+```
+
+### Production Build
+```bash
+npm run build
+npm start
+```
+
+## Available Scripts
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server with hot-reload |
+| `npm run build` | Compile and bundle the application for production |
+| `npm start` | Start the production server |
+| `npm run lint` | Run ESLint checks |
+| `npm run test` | Execute unit tests |
+
+## Project Structure
+```
+alx-project-0x03/
+├── components/          # Reusable React components
+│   ├── common/
+│   └── layouts/
+├── interface/           # Centralised TypeScript interfaces
+├── pages/               # Application routes
+│   ├── api/             # API routes (serverless functions)
+│   └── 404.tsx          # Custom error page
+├── public/              # Static assets
+├── styles/              # Global styles (if any)
+├── .eslintrc.json       # ESLint configuration
+├── tailwind.config.ts   # Tailwind CSS configuration
+└── next.config.js       # Next.js configuration
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Ensure all tests pass and follow the existing code style.
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -am 'Add your feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a Pull Request.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Getting Started
 
